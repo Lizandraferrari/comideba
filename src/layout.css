@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+h1{
+  font-size: xxx-large;
+}
+h3{
+  font-size: xx-large;
+}
+h6{
+  font-weight: 300;
+  font-size: medium;
+}
+
+
+body {
+  background-color: #FFEAC2;
+
+}
+main{
+  min-height:100vh ;
+  flex-grow: 1;
+}
+nav , footer{
+  background-color: #4B7B09;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+nav {
+  justify-content: space-around;
+  padding: 0.5em;
+
+}
+nav ul{
+  display: flex;    
+  list-style: none;
+  align-items: center;
+
+  margin-right: 1em;
+}
+nav a{
+  text-decoration: none;
+  color: #fff;
+}
+nav a:hover{
+  color: #dddddd;
+}
+
+nav li{
+  margin-right: 2em;
+}
+
+footer{
+  flex-direction: column;
+  padding: 2em;
+  padding-top: 5em;
+}
+
+.socialMedia{
+  margin-top: 1.5em;
+  margin-bottom: 4em;
+  display: flex;
+  gap:1.5em;
+}
+.depoimento{
+  display: flex;
+  padding: 3em;
+  align-items: center;
+  justify-content: space-around;
+}
+.depoimentoTxt{
+  display: flex;
+  flex-direction: column;
+  margin-right: 3em;
+  margin-left: 3em;
+  gap: 2em;
+}
+.depoimentoTxt img{
+  width: 20%;
+}
+
+.sectionDepoimento{
+  padding: 5em;
+  padding-top: 15em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #8a8a38;
+  clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+  margin-bottom: 10em;
+}
+.estiloDepoimento{
+  background-color: #E2CD35;
+  border-radius: 32px;
+  margin-top: 3em;
+  margin-right: 10em;
+  margin-left: 10em;
+}
+.estiloDepoimento img{
+  max-width: 16%;
+  border-radius: 32px;
+}
