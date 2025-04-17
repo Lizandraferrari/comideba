@@ -1,3 +1,4 @@
+import { TiShoppingCart } from "react-icons/ti";
 import logo from "../../assets/comideba.png"
 
 export default function Nav() {
@@ -23,7 +24,10 @@ export default function Nav() {
           </li>
 
           <li>
-            <a href="">Carrinho</a>
+            <a href="/carrinho">
+              Carrinho
+              <TiShoppingCart />
+              </a>
           </li>
         </ul>
       </nav>
