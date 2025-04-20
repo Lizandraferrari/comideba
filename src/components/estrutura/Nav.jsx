@@ -20,7 +20,7 @@ export default function Nav() {
           </li>
 
           <li>
-            <a href="">Todos Produtos</a>
+            <a href="/todosprodutos">Todos Produtos</a>
           </li>
 
           <li>

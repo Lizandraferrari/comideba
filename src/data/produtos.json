@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Almondega Vegetal",
+        "img": "/images/almondega.jpg"
+    },
+    {
+        "name": "Cookies de amendoim",
+        "img": "/images/cookies.jpg"
+    },
+    {
+        "name": "Torta de Abóbora",
+        "img": "/images/pumpkin.png"
+    },
+    {
+        "name": "Bolo de Banana",
+        "img": "/images/bolo.jpg"
+    },
+    {
+        "name": "Strogonoff com Inhame",
+        "img": "/images/strogonoff.jpeg"
+    }
+]

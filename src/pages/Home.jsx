@@ -6,7 +6,7 @@ export default function Home(){
     return (
         <>
             <section>
-                <h1 style={{textAlign:"center" , padding:"1em"}}>
+                <h1 className="titulo">
                     Promoção do mês!*
                 </h1>
                 <Depoimento

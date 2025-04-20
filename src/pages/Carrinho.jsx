@@ -1,4 +1,4 @@
-import Produto from "../components/produto";
+import ProdutoCarrinho from "../components/produtoCarrinho";
 import hamburger from "@/assets/hamburguer.jpg"
 
 export default function Carrinho(){
@@ -8,13 +8,13 @@ export default function Carrinho(){
             <h1>
                 Produtos no carrinho:
             </h1>
-                <Produto
+                <ProdutoCarrinho
                     num={"1"+ "."}
                     img={hamburger}
                     name={"Hamburguer de Berinjela"}
                     size={"Pacote 500g"}
                     qtd={"1"}
-                ></Produto>
+                ></ProdutoCarrinho>
             </div>
 
             <div className="pagamento">

@@ -1,4 +1,4 @@
-export default function Produto(produto){
+export default function ProdutoCarrinho(produto){
     return (
         <>
             <div className="produto">

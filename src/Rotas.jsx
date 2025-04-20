@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home.jsx"
 import Layout from "./components/estrutura/Layout.jsx";
 import Carrinho from "./pages/Carrinho.jsx";
+import TodosProdutos from "./pages/TodosProdutos.jsx";
 
 export default function Rotas (){
     const router = createBrowserRouter([
@@ -16,6 +17,10 @@ export default function Rotas (){
               path:"/carrinho",
               element: <Carrinho />
             },
+            {
+              path:"/todosprodutos",
+              element: <TodosProdutos />
+            }
           ]
         }
       ])
