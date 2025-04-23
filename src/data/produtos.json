@@ -18,5 +18,9 @@
     {
         "name": "Strogonoff com Inhame",
         "img": "/images/strogonoff.jpeg"
+    },
+    {
+        "name":"Hamburguer de Berinjela",
+        "img": "/images/hamburguer.jpg"
     }
 ]
